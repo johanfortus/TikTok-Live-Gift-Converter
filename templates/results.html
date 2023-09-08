@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+    <div class="container-lg d-flex justify-content-center flex-column text-center">
+        
+        <div class="display-5 fw-bold mt-5 py-5">
+            Your Conversion Result Is:
+        </div>
+    
+        <div class="display-5 fw-bold">
+            ${{ convertedAmount }}
+        </div>
+    
+        <form action="/">
+            <button class="btn btn-outline-success my-5">
+                Back to Converter
+            </button>
+        </form>
+    </div>
+
+</section>
+
+{% endblock %}
+
+
+
